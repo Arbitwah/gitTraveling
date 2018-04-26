@@ -1,5 +1,5 @@
 body {
-  background-color: #FF8C00;
+  background-color: white;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -23,6 +23,7 @@ header {
   background-color: #00CED1;
   padding: 15px;
   text-align: center;
+  margin-top: 90px;
 }
 
 .col {
@@ -32,11 +33,14 @@ header {
   color: white;
 }
 
+.maxi{
+  max-width: 900px;
+  max-height: 500px;
+  margin: 0 auto;
+}
+
 img {
   width: 100%;
-  max-width: 400px;
-  height: auto;
-  margin: 0 0 10px 0;
 }
 
 .col1, .col2, .col3 {
@@ -48,13 +52,9 @@ img {
 .col3 {
   margin-right: 0%;
 }
-
 .navbar {
-  position: fixed;
-  top: 0;
-  background-color: #800060;
-  margin: auto;
-  width: 100%;
+  background-color:  #da70d6;
+
 }
 
 .navbar a {
@@ -80,12 +80,12 @@ img {
   max-width: 900px;
 }
 
-.ctnr{
-  width:15%; margin-left: 20px; padding-bottom:40px; padding-top:40px
-}
 
 
 @media screen and (max-width: 770px) {
+=======
+/*@media screen and (max-width: 770px) {
+>>>>>>> ccfc7a35790f4fd61a845de1fb899885bf6bc559
   .col1, .col2{
     float: left;
     width: 30%;
@@ -133,4 +133,4 @@ img {
   .Fuji,.Boat{
     display: none;
   }
-}
+}*/
