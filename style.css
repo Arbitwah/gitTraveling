@@ -6,7 +6,10 @@ body {
   position: relative;
   font-family: 'Roboto', sans-serif;
 }
-
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+  background-color: grey;
+  color :white;
+}
 .clearfix {
   content: "";
   display: table;
@@ -14,25 +17,19 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   margin: auto;
   max-width: 1200px;
 }
 
 header {
-  background-color: #00CED1;
+  background-color:#d9d9d9;
   padding: 15px;
   text-align: center;
   margin-top: 90px;
+  margin-bottom: 5px;
+  width: 100%
 }
-
-.col {
-  padding: 50px 10px 5px 10px;
-  line-height: 1.5;
-  background-color: grey;
-  color: white;
-}
-
 .maxi{
   max-width: 900px;
   max-height: 500px;
@@ -43,18 +40,11 @@ img {
   width: 100%;
 }
 
-.col1, .col2, .col3 {
-  width: 30%;
-  float: left;
-  margin-right: 5%;
+li:hover{
+  background-color: grey;
 }
-
-.col3 {
-  margin-right: 0%;
-}
-.navbar {
-  background-color:  #da70d6;
-
+li.active{
+  background-color: grey;
 }
 
 .navbar a {
@@ -71,6 +61,7 @@ img {
   background-color: red;
   color: black;
 }
+<<<<<<< HEAD
 
 .Fuji{
   max-width: 900px;
@@ -134,3 +125,5 @@ img {
     display: none;
   }
 }*/
+=======
+>>>>>>> d2d81b1967e17f3d9f8543d1aaa584416ab1193e
